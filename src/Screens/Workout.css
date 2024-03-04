@@ -1,0 +1,119 @@
+.containernew {
+    margin-bottom: 200px;
+    /* Add a margin-bottom to move the boxes down */
+    position: absolute;
+    /* Add a margin-bottom to move the boxes down */
+  }
+  
+  .imagenew-container-aligned {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -700px;
+    width: 30rem;
+    margin-left: 50px;
+  }
+  
+  .black-line {
+    border-top: 2px solid black !important;
+    margin: 20px auto;
+    margin-left: 0%;
+    width: 40%;
+  
+  }
+  
+  hr {
+    border: 1px solid black;
+  }
+  
+  .custom-button {
+    background-color: rgb(153, 237, 98);
+    color: black;
+    border: 2px solid black;
+    width: 140px;
+    height: 40px;
+    margin: auto;
+  }
+  
+  .imagenew-container-aligned img {
+    width: 90%;
+    height: 100px;
+    margin-bottom: -2px;
+    margin-top: -27px;
+  }
+  
+  /* General styling */
+  body {
+    font-family: sans-serif;
+  }
+  
+  section {
+    padding: 40px;
+  }
+  
+  .container {
+    margin-bottom: 30px;
+  }
+  
+  /* Image styling */
+  .image1-image-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Select dropdown styling */
+  .bg-success {
+    background-color: rgba(153, 237, 98, 1) !important;
+    border-color: rgba(153, 237, 98, 1) !important;
+  }
+  
+  .rounded {
+    border-radius: 0.25rem !important;
+  }
+  
+  /* Time limit input fields styling */
+  .form-control {
+    width: 200px;
+    height: auto;
+    text-align: left;
+    color: rgba(153, 237, 98, 1);
+    bottom: -900px;
+  
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: left;
+    margin-top: 10px;
+  }
+  
+  .form-label {
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+    width: 150px;
+  }
+  
+  .form-control {
+    flex: 2;
+    align-items: flex-start;
+    margin-top:1px;
+  }
+  
+  .workout-level-container {
+    margin-bottom: 20px;
+  }
+  
+  .workout-level-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .workout-level-select {
+    width: 150px;
+  }

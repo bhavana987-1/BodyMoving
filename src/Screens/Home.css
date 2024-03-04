@@ -1,0 +1,288 @@
+
+.home-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    flex-direction: column; 
+  }
+  
+  .card {
+    display: flex;
+    width:20rem;
+    position: relative;
+    top: auto;
+    bottom: -10px;
+    right:-760px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+  }
+  
+  .card img {
+    width: 160%;
+    height: 700px;
+  }
+  
+  .card-body {
+    position: absolute;
+    bottom: 14px;
+    right: -118px;
+    width: 60%;
+    padding: 30px;
+  }
+  
+  .custom-button {
+    background-color: rgb(153, 237, 98);
+    color:  rgb(153, 237, 98);
+    border: 2px solid black ;
+    width: 140px;
+    height: 40px;
+    margin: auto; 
+  }
+  
+  .custom-button:hover {
+    color:  rgb(153, 237, 98);
+    border: 2px solid black;
+    background-color: rgb(153, 237, 98);
+  }
+  
+  
+  .new-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: -11px; 
+    width: 560px; 
+    height: 569px;
+    margin-left: 50px;
+  }
+  
+  
+  .new-image-container img {
+    width: 170%;
+    height: auto;
+    margin-bottom: 0px;
+  }
+  
+  .image-container-aligned{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:-710px; 
+    width: 20rem;
+    margin-left: 50px;
+  }
+  
+  .image-container-aligned img{
+    width: 100%;
+    height: auto;
+    margin-bottom: -2px;
+    margin-top:-27px ;
+  }
+  
+.black-line1 {
+  border-top: 2px solid black !important;
+  margin: 20px auto;
+  margin-left:4%;
+  width: 40%;
+}
+   
+  
+  
+  .black-line2-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  
+  .black-line2 {
+  border-top: 2px solid black !important;
+  margin: 20px auto;
+  width: 95%; 
+  margin-left: 4%; 
+  margin-right:6%;
+  margin-top: 0.5%;
+  }
+  
+  .fitness-container-aligned{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top:-21px; 
+    width: 17rem;
+    margin-left: 50px;
+  }
+  
+  .fitness-container-aligned img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  
+  .additional-card {
+    display: flex;
+    margin-left: -710px;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(153, 237, 90, 1) 40%
+    );
+  }
+  
+  
+  .additional-card .card-img-top {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+  }
+  
+  .additional-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%; 
+    padding: 4px;
+    box-sizing:border-box;
+  }
+  
+  .additional-card p {
+    text-align:center;
+    margin-top:9%; 
+    margin-left:-170%;
+    height: 100%;
+    transform: translateY(39%);
+    width: 110%; 
+    padding: 10px; 
+    box-sizing: border-box;
+  }
+  
+  .additional2-card {
+    display: flex;
+    margin-left: -330px;
+    margin-top: -360px;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(153, 237, 98, 1) 50%
+    );
+  }
+  
+  .additional2-card .card-img-top {
+    width:100%;
+    height:100%;  
+  }
+  
+  .additional2-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40%; 
+    padding: 4px;
+    box-sizing:border-box;
+    
+  }
+  
+  .additional2-card p {
+    text-align:center;
+    margin-top:-11%; 
+    margin-left:-180%;
+    height: 100%;
+    transform: translateY(39%);
+    width: 110%; 
+    padding: 10px; 
+    box-sizing: border-box;
+  }
+  
+  hr {
+    border: 1px solid black;
+  }
+  
+  .nutrition-container-aligned{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top:-10px; 
+    width: 21rem;
+    margin-left: 50px;
+  }
+  
+  .nutrition-container-aligned img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  
+  
+  .additional3-card {
+    display: flex;
+    margin-left: -730px;
+    flex-direction: column;
+    width: 770px;
+    height: 750px;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 0%,
+     white 50%
+    );
+  }
+  
+  
+  .additional3-card .card-img-down {
+    width: 150%;
+    height: 100%; 
+    object-fit: cover; 
+    flex-grow:1000;
+  }
+  
+  .additional3-card .card-body1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20%; 
+    padding: 4px;
+    box-sizing:border-box;
+  }
+  
+  .additional3-card p {
+    text-align:center;
+    margin-top:9%; 
+    margin-left:-60%;
+    height: 100%;
+    transform: translateY(-50%,-50%);
+    width: 110%; 
+    padding: 10px; 
+    padding-left: 400px;
+    box-sizing: border-box;
+  }
+  
+  
+  .motivation-container-aligned{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top:-21px; 
+    width: 21rem;
+    margin-left: 50px;
+  }
+  
+  .motivation-container-aligned img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+  }
+  

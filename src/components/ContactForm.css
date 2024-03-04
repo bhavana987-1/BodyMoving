@@ -1,0 +1,70 @@
+
+.contact-form-box {
+    background-color: black;
+    color: white;
+    padding: 100px;
+    width: 1200px;
+    height: 500px;
+    margin-top: 10%;
+    right: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .form-group {
+    height: 40px;
+    width: 100px;
+    margin-bottom: -14px;
+    margin-top:-20px;
+    margin-left: 60%;
+    margin-right: 2px;
+  }
+  
+  .form-control {
+    width: 40%;
+    margin-left: 20%;
+    margin-top: 100%;
+    background-color: black;
+    border: 2px solid white;
+    transition: background-color 0.3s;
+    outline:none;
+    margin-right: -100px;
+    margin-bottom: 5%;
+  }
+
+  .form-group + .form-group {
+    margin-top: 30px; /* Adjust the spacing between form groups */
+  }
+  
+  /* If you want spacing between form controls within a form group */
+  .form-group .form-control + .form-control {
+    margin-top: 45px; /* Adjust the spacing between form controls */
+  }
+  
+  .form-control:hover {
+    border-color: rgba(153, 237, 98, 1);
+    
+  }
+  
+  .submit-button {
+    margin-left: 95%;
+    display: block;
+    background-color: black;
+    border:1px solid rgba(153, 237, 98, 1);
+    margin-bottom: -10%;
+    margin-top: 20px;
+  }
+  
+  .submit-button:hover {
+    background-color: rgba(153, 237, 98, 1); 
+  }
+  
+  .contact-form-image {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 270px; /* Set the width as needed */
+    height: 200px; /* Set the height as needed */
+    margin-bottom: 10px;  /*Add bottom margin for spacing */
+    margin-right: 20px;
+    margin-top: -7%;
+    margin-left: -7%;
+  }

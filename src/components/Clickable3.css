@@ -1,0 +1,18 @@
+
+
+.Clickable3 { 
+    position:absolute;
+        top: 32.5%;
+        right:-25px;
+        background-color: rgba(153, 237, 98, 1);
+        padding: 100px;
+        width: 350px;
+        height: 350px;
+      }
+      
+      .Clickable3-text { 
+        margin: 0;
+        text-align: center;
+        color: black;
+      }
+      

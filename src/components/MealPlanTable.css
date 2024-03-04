@@ -1,0 +1,18 @@
+
+.meal-plan-table {
+    border-collapse: collapse;
+    width: 100%;
+   }
+   
+   .meal-plan-table th,
+   .meal-plan-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+   }
+   
+   .meal-plan-table th {
+    background-color: white;
+   }
+ 
+ 

@@ -1,0 +1,22 @@
+/* DataTable.css */
+.table-merge-with-navbar {
+    width: 100%;
+    margin-top: -16px; /* Adjust this value based on your design */
+  }
+
+  .table-merge-with-navbar {
+    width: 100%;
+    border: 2px solid black;
+  }
+
+  .table-merge-with-navbar th,
+.table-merge-with-navbar td {
+  border: 2px solid black; /* Adjust the thickness as needed */
+}
+
+.btn-green {
+  color: black;
+  background-color: rgb(153, 237, 98);
+  border-color: rgb(153, 237, 98);
+  
+}

@@ -1,0 +1,62 @@
+/*fruit-salad { font-size: 18px; font-weight: bold; margin-bottom: 10px; }
+
+.fruit-salad p { font-size: 14px; margin-bottom: 5px; }
+
+.fruit-salad-kcal { color: #333; font-weight: bold; }
+
+.fruit-salad-weight { color: #666; }
+*/
+
+/*
+.recipe .directions {
+    margin-top: 1rem;
+}
+
+.recipe .directions li {
+    list-style-type: decimal;
+    padding-left: 1.25rem;
+}
+
+/* additional css code 
+
+.fruit-salad { font-size: 18px; font-weight: bold; margin-bottom: 10px; }
+
+.fruit-salad p { font-size: 14px; margin-bottom: 5px; }
+
+.fruit-salad-kcal { color: #333; font-weight: bold; }
+
+.fruit-salad-weight { color: #666; }
+
+*/
+
+
+.recipe .directions {
+    margin-top: 1rem;
+}
+
+.recipe .directions li {
+    list-style-type: decimal;
+    padding-left: 1.25rem;
+}
+
+.fruit-salad {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: DarkOliveGreen; /* Color name */
+}
+
+.fruit-salad p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.fruit-salad-kcal {
+    color: DarkSlateGray; /* Color name */
+    font-weight: bold;
+}
+
+.fruit-salad-weight {
+    color: DimGray; /* Color name */
+}
+
